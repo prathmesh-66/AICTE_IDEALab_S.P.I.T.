@@ -1,0 +1,510 @@
+.eventsection{
+    width: 100%;
+    min-height: 800px;
+    border-top:  solid #262525 0.8px;
+    background-color:  white;
+    color:  rgb(8, 5, 69);
+}
+
+.dipp{
+    display: flex;
+    align-items:flex;
+    justify-content:flex-start;
+}
+
+.upcoming_event{
+    font-size: 20px;
+    display: flex;
+    align-items:flex;
+    justify-content:flex-start;
+    text-align:left;
+    flex-direction: column;
+    padding: 0rem 3rem 3rem 3rem;
+    box-sizing: border-box;
+    width:800px;
+    height:600px;
+    background:rgb(218, 216, 216);
+    border-radius: 10px;
+    box-shadow: 0px 1px 10px 1px black;
+}
+.recent{
+    text-align: center;
+    border-bottom:  solid #c5c5c5 2px;
+}
+
+
+.event_heading{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    background-color: #262525;
+    width: 400px;
+    height: 100px;
+    font-family: 'Poppins', sans-serif;
+    font-size:30px;
+    font-weight: 600;
+    -webkit-clip-path: polygon(100% 0, 78% 63%, 0 63%, 0 0);
+    clip-path: polygon(100% 0, 78% 63%, 0 63%, 0 0);
+}
+
+.event_name{
+    text-align: center;
+    font-size: 50px;
+    font-weight: 600;
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+}
+
+.event_name button{
+        margin-top: 3rem;
+        font-size: 15px;
+        font-family: 'Poppins', sans-serif;
+}
+
+
+.button{
+    padding: 12px 32px;
+    font-size: 1rem;
+    text-decoration: uppercase;
+    background: rgb(113, 106, 160);
+    color: black;
+    border: 1px solid rgb(0, 0, 0);
+    font-weight: 600;
+    cursor:pointer;
+    border-radius: 15px;
+    transition: all 0.2s ease;
+  }
+  
+  .button:hover{
+    background: rgb(233,233,233);
+    color:rgb(0, 0, 0);
+    transition: 0.3s;
+    box-shadow: 0px 1px 10px 1px black;
+  }
+
+  .button:active{
+    transform: scale(0.96);
+  }
+
+.event_details{
+    padding-left: 3rem;
+    margin-top: 1rem;
+    text-align: justify;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.more_event{
+    margin-top: 4rem;
+    padding-left: 4rem;
+    padding-right: 5rem;
+    display: flex;
+    justify-content: space-between;
+}
+.cente{
+    padding-left: 25rem;
+}
+@media screen and (min-width:1024px) and (max-width:1280px) {
+    .cente{
+        padding-left: 16rem;
+    }
+}
+
+@media screen and (min-width:800px) and (max-width:1024px) {
+    .event_heading{
+        width:300px;
+        height:90px;
+        font-size: 25px;
+    }
+    .eventsection{
+        min-height: 690px;
+    }
+    .upcoming_event{
+        width:700px;
+        height:560px;
+    }
+    .event_details{
+        margin-top: 1rem;
+        text-align: left;
+        font-size: 17px;
+        font-weight: 400;
+        text-align: justify;
+    }
+    .button{
+        padding: 12px 32px;
+        font-size: 0.8rem;
+    }
+    .event_name button{
+        font-size: 13px;
+    }
+    .cente{
+        padding-left: 10rem;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:800px) {
+    .event_heading{
+        width:300px;
+        height:90px;
+        font-size: 25px;
+    }
+    .eventsection{
+        min-height: 650px;
+    }
+    .upcoming_event{
+        width:800px;
+        height:500px;
+    }
+    .event_details{
+        margin-top: 1rem;
+        text-align: left;
+        font-size: 17px;
+        font-weight: 400;
+        text-align: justify;
+    }
+    .button{
+        padding: 12px 32px;
+        font-size: 0.8rem;
+    }
+    .event_name button{
+        font-size: 13px;
+    }
+    .cente{
+        padding-left: 8rem;
+    }
+}
+
+
+@media screen and (max-width:768px) {
+    .event_heading{
+        width:300px;
+        height:90px;
+        font-size: 25px;
+    }
+    .eventsection{
+        min-height: 680px;
+    }
+    .upcoming_event{
+        width:700px;
+        height:550px;
+    }
+    .event_details{
+        margin-top: 1rem;
+        text-align: left;
+        font-size: 17px;
+        font-weight: 400;
+        text-align: justify;
+    }
+    .button{
+        padding: 12px 32px;
+        font-size: 0.8rem;
+    }
+    .event_name button{
+        font-size: 13px;
+    }
+    .cente{
+        padding-left: 2rem;
+    }
+}
+@media screen and (max-width:600px) {
+    .event_heading{
+        width:300px;
+        height:90px;
+        font-size: 25px;
+    }
+    .eventsection{
+        min-height: 890px;
+    }
+    .upcoming_event{
+        width:520px;
+        height:750px;
+    }
+    .event_details{
+        margin-top: 1rem;
+        text-align: left;
+        font-size: 17px;
+        font-weight: 400;
+        text-align: justify;
+    }
+    .button{
+        padding: 12px 32px;
+        font-size: 0.8rem;
+    }
+    .event_name button{
+        font-size: 13px;
+    }
+    .cente{
+        padding-left: 2rem;
+    }
+    .dipp{
+        display: flex;
+        flex-direction: column;
+        align-items:flex;
+        justify-content:flex-start;
+    }
+    .event_heading{
+        text-align: center;
+        color: rgb(255, 255, 255);
+        background-color: #262525;
+        width: 300px;
+        height: 100px;
+    }
+    .more_event{
+        margin-top: 4rem;
+        padding-left: 0rem;
+        padding-right: 0rem;
+    }
+}
+
+@media screen and (min-width:426px) and (max-width:500px){
+    .event_heading{
+        width:300px;
+        height:90px;
+        font-size: 25px;
+    }
+    .eventsection{
+        min-height: 1550px ;
+    }
+    .upcoming_event{
+        width:300px;
+        min-height:1400px;
+    }
+    .event_details{
+        margin-top: 1rem;
+        text-align: left;
+        font-size: 17px;
+        font-weight: 400;
+        padding-left: 0rem;
+        text-align: justify;
+    }
+    .button{
+        padding: 12px 32px;
+        font-size: 0.8rem;
+    }
+    .event_name button{
+        font-size: 13px;
+    }
+    .cente{
+        padding-left: 2.5rem;
+    }
+    .dipp{
+        display: flex;
+        flex-direction: column;
+        align-items:flex;
+        justify-content:flex-start;
+    }
+    .event_heading{
+        text-align: center;
+        color: rgb(255, 255, 255);
+        background-color: #262525;
+        width: 300px;
+        height: 100px;
+    }
+    .more_event{
+        margin-top: 4rem;
+        padding-left: 0rem;
+        padding-right: 0rem;
+    }
+}
+
+
+
+@media screen and  (max-width:542px) {
+    .event_heading{
+        width:300px;
+        height:90px;
+        font-size: 25px;
+    }
+    .eventsection{
+        min-height: 870px;
+    }
+    .upcoming_event{
+        width:500px;
+        height:750px;
+    }
+    .event_details{
+        margin-top: 1rem;
+        text-align: left;
+        font-size: 17px;
+        font-weight: 400;
+        text-align: justify;
+    }
+    .button{
+        padding: 12px 32px;
+        font-size: 0.8rem;
+    }
+    .event_name button{
+        font-size: 13px;
+    }
+    .cente{
+        padding-left: 1rem;
+    }
+}
+
+@media screen and (min-width:376px) and (max-width:426px) {
+    .event_heading{
+        width:200px;
+        height:70px;
+        font-size: 20px;
+    }
+    .eventsection{
+        min-height: 860px ;
+    }
+    .upcoming_event{
+        text-align: center;
+        padding: 1rem 2rem 2rem 2rem;
+        width:320px;
+        min-height:750px;
+    }
+    .event_details{
+        font-size: 14px;
+        font-weight: 400;
+        padding-left: 0rem;
+        text-align: justify;
+    }
+    .event_name{
+        font-size: 40px;
+        padding: 0;
+        margin: 0;
+    }
+    .button{
+        padding: 12px 32px;
+        font-size: 0.8rem;
+    }
+    .event_name button{
+        font-size: 13px;
+    }
+    .cente{
+        padding-left: 2.5rem;
+    }
+    .dipp{
+        display: flex;
+        flex-direction: column;
+        align-items:flex;
+        justify-content:flex-start;
+    }
+
+    .more_event{
+        margin-top: 4rem;
+        padding-left: 0rem;
+        padding-right: 0rem;
+    }
+    .more_event .button{
+        font-size: 11px;
+        padding: 1rem;
+    }
+    
+}
+
+@media screen and (min-width:330px) and (max-width:376px) {
+    .eventsection{
+        min-height: 800px ;
+    }
+    .upcoming_event{
+        text-align: center;
+        padding: 1rem 2rem 2rem 2rem;
+        width:320px;
+        min-height:700px;
+    }
+    .event_details{
+        font-size: 13px;
+        font-weight: 400;
+        padding-left: 0rem;
+        text-align: justify;
+    }
+    .button{
+        padding: 12px 32px;
+        font-size: 0.8rem;
+    }
+    .event_name{
+        font-size: 40px;
+        padding: 0;
+        margin: 0;
+    }
+    .event_name button{
+        font-size: 13px;
+    }
+    .cente{
+        padding-left: 1.8rem;
+    }
+    .dipp{
+        display: flex;
+        flex-direction: column;
+        align-items:flex;
+        justify-content:flex-start;
+    }
+    .event_heading{
+        width: 200px;
+        height: 80px;
+        font-size: 20px;
+    }
+    .more_event{
+        margin-top: 4rem;
+        padding-left: 0rem;
+        padding-right: 0rem;
+    }
+    .more_event .button{
+        font-size: 11px;
+        padding: 1rem;
+    }
+    
+}
+
+
+@media screen and (max-width:330px) {
+    .eventsection{
+        min-height: 800px ;
+    }
+    .upcoming_event{
+        text-align: center;
+        padding: 1rem 2rem 2rem 2rem;
+        width:320px;
+        min-height:700px;
+    }
+    .event_details{
+        font-size: 13px;
+        font-weight: 400;
+        padding-left: 0rem;
+        text-align: justify;
+    }
+    .button{
+        padding: 12px 32px;
+        font-size: 0.8rem;
+    }
+    .event_name{
+        font-size: 40px;
+        padding: 0;
+        margin: 0;
+    }
+    .event_name button{
+        font-size: 13px;
+    }
+    .cente{
+        padding-left: 1rem;
+    }
+    .dipp{
+        display: flex;
+        flex-direction: column;
+        align-items:flex;
+        justify-content:flex-start;
+    }
+    .event_heading{
+        width: 200px;
+        height: 80px;
+        font-size: 20px;
+    }
+    .more_event{
+        margin-top: 4rem;
+        padding-left: 0rem;
+        padding-right: 0rem;
+    }
+    .more_event .button{
+        font-size: 11px;
+        padding: 1rem;
+    }
+    
+}
+
+
+
+

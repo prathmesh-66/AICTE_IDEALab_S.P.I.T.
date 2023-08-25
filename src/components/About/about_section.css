@@ -1,0 +1,225 @@
+.ab_cs{
+    width:100%;
+    min-height: 700px;
+    background-color:  white;
+    color: rgb(8, 5, 69);
+    border-top: solid #262525 0.8px;
+}
+.centerr{
+    padding-left: 25rem;
+}
+
+.about_css{ 
+    font-family: 'Poppins', sans-serif;
+    text-align: justify;
+    font-size: 18px;
+    padding: 2rem 3rem 3rem 3rem;
+    box-sizing: border-box;
+    width:800px;
+    min-height:400px;
+    background:rgb(218, 216, 216);
+    border-radius: 10px;
+    box-shadow: 0px 1px 10px 1px black;
+    top: 0;
+    left:100%;
+    z-index: -3;
+    transition: 0.5s;
+}
+
+
+.heading{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+}
+
+.about_heading{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    background-color: #262525;
+    width: 400px;
+    height: 100px;
+    font-family: 'Poppins', sans-serif;
+    font-size:30px;
+    font-weight: 600;
+    -webkit-clip-path: polygon(100% 0, 78% 63%, 0 63%, 0 0);
+    clip-path: polygon(100% 0, 78% 63%, 0 63%, 0 0);
+}
+
+
+@media screen and (min-width:1500px) and (max-width:2000px) {
+    .centerr{
+        padding-left: 24rem;
+    }
+}
+@media screen and (min-width:1024px) and (max-width:1280px) {
+    .centerr{
+        padding-left: 16rem;
+    }
+}
+
+@media screen and (min-width:800px) and (max-width:1025px) {
+    .ab_cs{
+        width:100%;
+        min-height: 600px;
+    }
+    .centerr{
+        padding-left: 10rem;
+    }
+
+    .about_css{ 
+        font-size: 15px;
+        width:700px;
+        min-height:400px;
+    }
+    .about_heading{
+        width:300px;
+        height:90px;
+        font-size: 25px;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:800px) {
+    .ab_cs{
+        width:100%;
+        min-height: 550px;
+    }
+    .centerr{
+        padding-left: 8rem;
+    }
+
+    .about_css{ 
+        font-size: 15px;
+        width:800px;
+        min-height:400px;
+    }
+    .about_heading{
+        width:300px;
+        height:90px;
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width:768px){
+    .ab_cs{
+        width:100%;
+        min-height: 700px;
+    }
+    .centerr{
+        padding-left: 2.3rem;
+    }
+
+    .about_css{ 
+        font-size: 15px;
+        width:700px;
+        min-height:400px;
+    }
+    .about_heading{
+        width:300px;
+        height:90px;
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width:600px){
+    .ab_cs{
+        width:100%;
+        min-height: 650px;
+    }
+    .centerr{
+        padding-left: 2rem;
+    }
+
+    .about_css{ 
+        font-size: 15px;
+        width:520px;
+        min-height:400px;
+    }
+    .about_heading{
+        width:300px;
+        height:90px;
+        font-size: 25px;
+    }
+}
+
+
+@media screen and (min-width:426px) and (max-width:540px){
+    .ab_cs{
+        width:100%;
+        min-height: 700px;
+    }
+    .centerr{
+        padding-left: 1.3rem;
+    }
+
+    .about_css{ 
+        font-size: 15px;
+        width:500px;
+        min-height:400px;
+    }
+    .about_heading{
+        width:200px;
+        height:70px;
+        font-size: 20px;
+    }
+}
+
+
+@media screen and (min-width:376px) and (max-width:426px) {
+    .ab_cs{
+        width:100%;
+        min-height: 680px;
+    }
+    .centerr{
+        padding-left: 1.5rem;
+    }
+
+    .about_css{ 
+        padding: 1rem 1rem 1rem 1rem;
+        font-size: 14px;
+        width:350px;
+        min-height:400px;
+    }
+    .about_heading{
+        width:200px;
+        height:70px;
+        font-size: 20px;
+    }
+    
+}
+
+@media screen and (min-width:320px) and (max-width:376px) {
+    .ab_cs{
+        width:100%;
+        min-height: 630px;
+        width: 300px;
+    }
+    .centerr{
+        padding-left: 2rem;
+    }
+
+    .about_css{ 
+        padding: 1rem 1rem 1rem 1rem;
+        font-size: 13px;
+        width:310px;
+        min-height:400px;
+    }
+    .about_heading{
+        width:200px;
+        height:70px;
+        font-size: 20px;
+    }
+    
+}
+
+@media screen and (min-width:280px) and (max-width:320px) {
+    
+    .centerr{
+        padding-left: 0.6rem;
+    }
+    
+}
+
+
+
